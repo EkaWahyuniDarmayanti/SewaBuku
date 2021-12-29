@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SewaBuku">
         <activity
-            android:name=".beranda"
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BerandaActivity"
             android:exported="false" />
         <activity
             android:name=".pilihbuku"
