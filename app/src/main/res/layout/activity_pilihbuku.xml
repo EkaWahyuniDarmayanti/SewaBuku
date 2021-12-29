@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pilihbuku">
+
+    <ImageButton
+        android:id="@+id/iconback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/iconback"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="18dp"
+        android:text="Pilih Buku"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/cari"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/bagcari"
+        android:hint="Judul Buku, Nama Penulis"
+        android:paddingHorizontal="50dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pencarian"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"/>
+
+    <EditText
+        android:id="@+id/sortir"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sortir"
+        android:layout_below="@+id/cari"
+        android:layout_marginTop="21dp"
+        android:text="Atur Berdasarkan"
+        android:textSize="10sp"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/cari"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icondropdown"/>
+
+    <EditText
+        android:id="@+id/kategori_termurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/termurah"
+        android:layout_toEndOf="@+id/sortir"
+        android:layout_below="@id/cari"
+        android:layout_marginTop="21dp"
+        android:text="Termurah"
+        android:textSize="10sp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <EditText
+        android:id="@+id/promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/termurah"
+        android:layout_toEndOf="@+id/kategori_termurah"
+        android:layout_below="@id/cari"
+        android:layout_marginTop="21dp"
+        android:text="Termurah"
+        android:textSize="10sp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/buku1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sortir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bagbuku"
+        android:src="@drawable/buku1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internasional Business"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/buku1"
+        android:layout_below="@id/kategori_termurah"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori_termurah"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/buku1"
+        android:text="Cavusgil, Knight, Riesnberger" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori_termurah"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/buku1"
+        android:text="Edisi Kedua" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buku1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/garis" />
+
+
+
+
+
+
+
+</RelativeLayout>

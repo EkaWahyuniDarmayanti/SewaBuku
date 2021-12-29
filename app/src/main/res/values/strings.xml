@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppSewaBuku</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sewabuku">SEWABUKU</string>
+    <string name="selamat_dat">SELAMAT DATANG!</string>
+    <string name="masuk">masuk</string>
+    <string name="beranda">Beranda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
